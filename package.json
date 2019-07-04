@@ -4,7 +4,9 @@
   "description": "A Service Worker sandbox for Rails apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Skip\""
+    "test": "echo \"Skip\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Ross Kaffenberger",
   "license": "MIT",
@@ -20,6 +22,8 @@
     "react-dom": "^15.0.2",
     "reactify": "^1.1.1",
     "skel": "0.0.0",
-    "skel-framework": "github:n33/skel"
-  }
+    "skel-framework": "github:n33/skel",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
