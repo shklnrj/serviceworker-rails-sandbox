@@ -2,21 +2,21 @@ source "https://rubygems.org"
 
 ruby "2.3.1"
 
-gem "rails", "~> 5.0.0"
+gem "rails", "~> 5.0.0", ">= 5.0.0.1"
 gem "pg", "~> 0.15"
 gem "puma"
 
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.6"
 gem "uglifier", ">= 1.3.0"
-gem "jquery-rails"
-gem "coffee-rails"
-gem "browserify-rails"
-gem "react-rails"
+gem "jquery-rails", ">= 4.2.1"
+gem "coffee-rails", ">= 4.1.1"
+gem "browserify-rails", ">= 3.1.0"
+gem "react-rails", ">= 1.8.2"
 gem "materialize-sass"
 gem "sdoc", "~> 0.4.0", group: :doc
 
 gem "rack-protection"
-gem "title"
+gem "title", ">= 0.0.7"
 gem "flutie"
 gem "high_voltage"
 gem "i18n-tasks"
@@ -30,18 +30,18 @@ gem "non-stupid-digest-assets"
 gem "serviceworker-rails", github: "rossta/serviceworker-rails", branch: "master"
 
 group :development, :test do
-  gem "factory_girl_rails"
+  gem "factory_girl_rails", ">= 4.7.0"
   gem "faker"
   gem "pry-rails"
   gem "pry-rescue"
   gem "pry-byebug"
   gem "awesome_print"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.1.1"
   gem "rubocop"
 end
 
 group :development do
-  gem "web-console", "~> 2.0"
+  gem "web-console", "~> 2.3", ">= 2.3.0"
   gem "better_errors"
   gem "guard-bundler"
   gem "guard-rails"
@@ -54,7 +54,7 @@ group :development do
 end
 
 group :test do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 3.5.1"
   gem "capybara"
   gem "shoulda-matchers"
   gem "database_cleaner"
