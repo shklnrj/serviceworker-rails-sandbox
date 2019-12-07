@@ -235,7 +235,7 @@ GEM
     pry-rescue (1.4.4)
       interception (>= 0.5)
       pry
-    puma (3.6.0)
+    puma (3.12.2)
     rack (2.0.1)
     rack-protection (1.5.3)
       rack
@@ -418,7 +418,7 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   pry-rescue
-  puma
+  puma (>= 3.12.2)
   rack-protection
   rails (~> 5.0.0)
   rails_12factor
@@ -449,4 +449,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
