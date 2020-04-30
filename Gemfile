@@ -13,15 +13,15 @@ gem "coffee-rails"
 gem "browserify-rails"
 gem "react-rails"
 gem "materialize-sass"
-gem "sdoc", "~> 0.4.0", group: :doc
+gem "sdoc", "~> 1.0.0", group: :doc
 
 gem "rack-protection"
 gem "title"
 gem "flutie"
 gem "high_voltage"
-gem "i18n-tasks"
+gem "i18n-tasks", ">= 0.9.5"
 
-gem "twitter"
+gem "twitter", ">= 6.0.0"
 gem "ece"
 gem "webpush", github: "rossta/webpush", branch: "master"
 gem "sucker_punch"
